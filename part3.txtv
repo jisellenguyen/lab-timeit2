@@ -1,0 +1,48 @@
+sequential_search_itr numpy.array
+50 loops, best of 5: 4.56 msec per loop
+sequential_search_itr list
+500 loops, best of 5: 944 usec per loop
+sequential_search_itr tuple
+500 loops, best of 5: 948 usec per loop
+sequential_search_itr deque
+200 loops, best of 5: 1.01 msec per loop
+sequential_search_itr2 numpy.array
+50 loops, best of 5: 7.36 msec per loop
+sequential_search_itr2 list
+100 loops, best of 5: 2.1 msec per loop
+sequential_search_itr2 tuple
+100 loops, best of 5: 2.17 msec per loop
+sequential_search_itr2 deque
+2 loops, best of 5: 107 msec per loop
+sequential_search_rec numpy.array
+RecursionError: maximum recursion depth exceeded
+sequential_search_rec list
+RecursionError: maximum recursion depth exceeded
+sequential_search_rec tuple
+RecursionError: maximum recursion depth exceeded
+sequential_search_rec deque
+TypeError: sequence index must be integer, not 'slice'
+binary_search_itr numpy.array
+50000 loops, best of 5: 6.45 usec per loop
+binary_search_itr list
+200000 loops, best of 5: 1.78 usec per loop
+binary_search_itr tuple
+200000 loops, best of 5: 1.84 usec per loop
+binary_search_itr deque
+2000 loops, best of 5: 168 usec per loop
+binary_search_rec numpy.array
+50000 loops, best of 5: 7.13 usec per loop
+binary_search_rec list
+100000 loops, best of 5: 2.75 usec per loop
+binary_search_rec tuple
+100000 loops, best of 5: 2.67 usec per loop
+binary_search_rec deque
+2000 loops, best of 5: 168 usec per loop
+binary_search_rec2 numpy.array
+50000 loops, best of 5: 6.05 usec per loop
+binary_search_rec2 list
+1000 loops, best of 5: 394 usec per loop
+binary_search_rec2 tuple
+500 loops, best of 5: 415 usec per loop
+binary_search_rec2 deque
+TypeError: sequence index must be integer, not 'slice'
